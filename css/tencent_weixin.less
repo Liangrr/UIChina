@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@img_text: "../img_weixin";
+
+.w_h(@w: 0; @h: 0; @color:#ffffff;){
+    width: @w;
+    height: @h;
+    background-color: @color;
+}
+
+header{
+   .w_h(100%,820px,cadetblue);
+}
+
+header {
+    .top{
+        .w_h(100%,70px,#38414a);
+        .top_con{
+            position: relative;
+            .w_h(990px,70px,#38414a);
+            margin: 0 auto;
+            img{
+                float: left;
+            }
+            ul{
+                position: absolute;
+                left: 188px;
+                top: 20px;
+                float: left;
+                font-size: 22px;
+                .w_h(138px,30px);
+                border-radius: 5px;
+                background: url("@{img_text}/angle.png") no-repeat;
+                background-position: 120px 15px;
+                li{
+                    list-style: none;
+                    display: none;
+                    &:nth-child(1){
+                        border-left: 1px solid #121c26;
+                        display: block;
+                        a{
+                            color: green;
+                        }
+                    }
+                    a{
+                        display: block;
+                        padding-left: 10px;
+                        padding-top: 2px;
+                        padding-bottom: 2px;
+                        line-height: 30px;
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+                &:hover{
+                    .w_h(138px,150px);
+                    background: url("@{img_text}/angle2.png") no-repeat;
+                    background-position: 120px 15px;
+                    background-color: rgba(0,0,0,0.5);
+                    li{
+                        display: block;
+                    }
+                }
+            }
+            .input{
+                float: right;
+                margin-top: 20px;
+                .w_h(430px,33px);
+                border: 1px solid cadetblue;
+                input[type=text]{
+                    .w_h(380px,33px,#bdc0c3);
+                    float: left;
+                    border: none;
+                    outline: none;
+                    padding-left: 10px;
+                    box-sizing: border-box;
+                }
+                input[type=button]{
+                    background: url("@{img_text}/search.png") no-repeat;
+                    background-position: 15px 8px;
+                    .w_h(50px,33px,#04b141);
+                    float: left;
+                    border: none;
+                }
+            }
+        }
+    }
+    .nav{
+        .w_h(100%,35px,#04b141);
+        .nav_con{
+            .w_h(990px,35px,#04b141);
+            margin: 0 auto;
+            ul{
+                top: 0;
+                left: 0;
+                .w_h(660px,35px,#ffffff);
+                li{
+                    float: left;
+                    list-style: none;
+                    .w_h(110px,35px,#00ff00);
+                    line-height: 35px;
+                    a{
+                        text-align: center;
+                        text-decoration: none;
+                        color: #fff2b7;
+                    }
+                }
+            }
+        }
+    }
+}
+
+header {
+    .nav{
+        .w_h(100%,35px,#04b141);
+    }
+    .content{
+        .w_h(100%,320px,#f0f0f0);
+    }
+    .big_pic{
+        .w_h(100%,395px,#ffffff);
+    }
+}
+
+footer{
+   .w_h(100%,520px);
+}

@@ -1,0 +1,38 @@
+.other {
+  color: white;
+}
+.div01 {
+  color: #FF0000;
+  background-color: #FF0000;
+  width: 200px;
+  height: 111px;
+}
+.div02 {
+  border: 180px solid red;
+  color: #FF0000;
+  background-color: #FF0000;
+  width: 200px;
+  height: 111px;
+}
+#bundle .button {
+  display: block;
+  border: 1px solid black;
+  background-color: grey;
+}
+#bundle .button:hover {
+  background-color: white;
+}
+#bundle .button:nth-child(1):hover {
+  background-color: red;
+}
+.div03 {
+  background: url("../img/1510829213347.jpg");
+}
+.div04 {
+  width: 200px;
+  height: 210px;
+}
+.div05 {
+  width: 200px;
+  height: 250px;
+}

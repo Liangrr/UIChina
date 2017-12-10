@@ -1,0 +1,87 @@
+//定义一个变量
+//怎么编译，在命令行进入这个文件夹。
+// lessc  完整文件名.less  >  自定义文件名.css （自定义文件名最好和less文件名一样）
+//自动生成一个自定义文件名.css 文件
+@import "other.less"; //可以导入其他less,多个less合并
+
+@BK_color:#FF0000;
+@BK_width:200px;
+.div01{
+    color:@BK_color;
+    background-color: @BK_color;
+    width: @BK_width;
+    height:@BK_height;//来源于other.less
+}
+
+
+
+@BK_Padding:10px;
+//可以做计算
+@BK_ture_width:@BK_width - @BK_Padding*2;
+
+.div02{
+   border: @BK_ture_width solid red; 
+   //继承div01
+   .div01; 
+   
+}
+
+#bundle {
+    // >button  直接子类也可以
+  .button {
+    display: block;
+    border: 1px solid black;
+    background-color: grey;
+    //在.button后加:hover
+    &:hover {
+      background-color: white;
+    }
+    //& 其实就是代表.button
+    &:nth-child(1):hover {
+      background-color: red;
+    }
+  }
+}
+
+//文本替换 常用于路径相关
+//使用语法：@{text}
+@text: "../img";
+@youguang:"1510829213347"; //给图片取个名字
+.div03{
+    //css url（没有引号）
+    background: url("@{text}/@{youguang}.jpg");
+}
+
+
+
+//不建议：使用最上面的写法 nav ul { .inline;  }好理解一些
+
+//nav ul {
+// &:extend(.inline);
+//background: blue;
+//}
+//
+//.inline  {
+//color: red;
+//}
+  //相当于定义一个方法，某些CSS属性很多标签要用，但是值不一样。
+   //:后面的为默认参数。最好都要带，防止忘记写参数。
+.w_h(@w:200px,@h:210px){
+    width :  @w ; 
+    height:  @h ;  
+ }
+ 
+.div04{
+     .w_h(); 
+}
+ .div05{
+     //制定传某个参数，其他为默认。
+     .w_h(@h:250px); 
+}
+
+.box-shadow(@x: 0; @y: 0; @blur: 1px; @color: #000) {
+     //box-shadow:@x @y  @blur  @color;
+    //@arguments 所有的参数都使用
+    box-shadow: @arguments;
+}
+
