@@ -1,0 +1,251 @@
+@charset "utf-8";
+@font-face {
+	font-family: "iconfont";
+	src: url('iconfont.eot');
+	/* IE9*/
+	src: url('../iconfont/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../iconfont/iconfont.woff') format('woff'), /* chrome, firefox */
+	url('../iconfont/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+	url('../iconfont/iconfont.svg#iconfont') format('svg');
+	/* iOS 4.1- */
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 44px;
+	font-style: normal;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #34495e;
+}
+
+header {
+	width: 100%;
+	height: 68px;
+	background-color: #FFFFFF;
+}
+
+header .head {
+	width: 1180px;
+	height: 68px;
+	margin: 0 auto;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+header .head>a{
+	display: block;
+	text-align: center;
+	line-height: 68px;
+	height: 68px;
+	width: 60px;
+	float: left;
+	color: #3498db;
+}
+
+header .head .nav{
+	margin-left: 10px;
+	height: 68px;
+	float: left;
+}
+
+header .head .nav>a>li{
+	list-style: none;
+	float: left;
+	width: 80px;
+	text-align: center;
+	line-height: 65px;
+	border-top: 3px solid rgba(0,0,0,0);
+}
+
+header .head .nav>a>li:hover{
+	box-shadow: 0px 0px 1px #bac1c9;
+	background-color: #ffffff;
+	border-top: 3px solid #3498db;
+}
+
+header .head .nav>a{
+	font-size: 14px;
+}
+
+header .head .nav>a:nth-of-type(1){
+	color: #3498db;
+}
+
+header .head .nav>a>li>i{
+	font-size: 20px;
+	font-weight: 50;
+	font-style: normal;
+	color: #bac1c9;
+	position: relative;
+	top: 3px;
+	right: 3px;
+}
+
+header .head .head_right{
+	float: right;
+	height: 68px;
+	width: 200px;
+	text-align: center;
+	line-height: 65px;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+
+header .head .head_right>a{
+	font-size: 25px;
+	color: #ced7de;
+	display: block;
+	width: 50px;
+	float: left;
+	border-top: 3px solid rgba(0,0,0,0);
+}
+
+header .head .head_right>a:hover{
+	background-color: #ffffff;
+	border-top: 3px solid #3498db;
+}
+
+header .head .head_right>a:nth-of-type(1){
+	margin: 20px 0;
+	line-height: 30px;
+	border-left: 1px solid #ced7de;
+	border-right: 1px solid #ced7de;
+}
+
+header .head .head_right>a:nth-of-type(1):hover{
+	box-shadow: none;
+	border-top: 3px solid rgba(0,0,0,0);
+	color: #;
+}
+
+header .head .head_right>a:nth-of-type(2){
+	width: 65px;
+}
+
+
+header .head .head_right>a:nth-of-type(3){
+	width: 60px;
+	float: right;
+	font-size: 20px;
+	color: #3498db;
+}
+
+header .head .head_right>a:nth-of-type(3):hover{
+	background-color: #eff3f5;
+}
+
+header .head .head_right>a:nth-of-type(3)>i{
+	font-size: 14px;
+	font-style:normal;
+}
+
+section {
+	width: 100%;
+	background-color: #eff3f5;
+}
+
+section .package{
+	width: 100%;
+	height: 1045px;
+	padding-top: 42px;
+	padding-bottom: 215px;
+	box-sizing: border-box;
+	background: url("../font/page-bg.jpg");
+}
+
+section .package .content{
+	width: 1180px;
+	height: 690px;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+}
+
+section .package .content>img{
+	transition: all 1s;
+	width: 995px;
+	height: 215px;
+}
+
+section .package .content .font_search{
+	width: 480px;
+	height: 85px;
+	margin: 85px auto 0;
+	line-height: 85px;
+	background: url("../font/search-bg.png");
+	position: relative;
+}
+
+section .package .content .font_search>input[type=text]{
+	width: 310px;
+	height: 43px;
+	line-height: 43px;
+	background-color: #f5f4f2;
+	outline: none;
+	border: none;
+	position: relative;
+	top: -11px;
+	left: 5px;
+	border-radius: 20px;
+	background: url(../font/fangdajing.png) no-repeat 2px 12px;
+}
+
+section .package .content .font_search>input[type=text]::-webkit-input-placeholder {
+	color: #ba9755;
+}
+
+section .package .content .font_search>span{
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	color: #ba9755;
+}
+
+section .package .content .font_search>span>img{
+	position: relative;
+	top: 2px;
+}
+
+section .package .content .font_search>a{
+	display: inline-block;
+	width: 70px;
+	height: 67px;
+	text-align: center;
+	line-height: 67px;
+	font-size: 12px;
+	position: relative;
+	top: 5px;
+	left: -12px;
+	background: url(../font/search.png);
+}
+
+section .package .content .font_search>a:nth-of-type(2){
+	left: -5px;
+	background: url(../font/pre-look.png);
+}
+
+section .package .content>ul{
+	width: 1075px;
+	height: 185px;
+	margin: 115px auto 0;
+}
+
+section .package .content>ul>li{
+	list-style: none;
+	float: left;
+	width: 256px;
+	height: 185px;
+	margin-right: 150px;
+}
+
+section .package .content>ul>li:nth-of-type(3){
+	margin-right: 0;
+}

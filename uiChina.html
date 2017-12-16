@@ -3,92 +3,56 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 		<style type="text/css">
-			*{
-				padding: 0;
-				margin: 0;
-			}
-			header{
-				width: 100%;
-				height: 68px;
-				background-color: #FFFFFF;
-			}
-			header .head{
-				width: 1180px;
-				height: 68px;
-				background-color: goldenrod;
-				margin: 0 auto;
-			}
-			section{
-				width: 100%;
-				height: 4270px;
-				background-color: #eff3f5;
-			}
-			section>div{
-				width: 100%;
-			}
-			section .top{
-				height: 2140px;
-				background-color: #eff3f5;
-			}
-			section .center{
-				height: 1120px;
-				background-color: #FFFFFF;
-			}
-			section .bottom{
-				height: 1010px;
-				background-color: #eff3f5;
-			}
-			section .top .top_content{
-				width: 1180px;
-				height: 2140px;
-				background-color: greenyellow;
-				margin: 0 auto;
-			}
-			section .center .center_content{
-				width: 1180px;
-				height: 1120px;
-				background-color: peachpuff;
-				margin: 0 auto;
-			}
-			section .bottom .bottom_content{
-				width: 1180px;
-				height: 1010px;
-				background-color: cadetblue;
-				margin: 0 auto;
-			}
-			footer{
-				width: 100%;
-				height: 170px;
-				background-color: #FFFFFF;
-			}
-			
-			
+		
 		</style>
 	</head>
 	<body>
 		<header>
 			<div class="head">
-				<a href=""></a>
+				<a href="#" class="iconfont">&#xe606;</a>
 				<ul class="nav">
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<a href="#"><li>首页</li></a>
+					<a href="#" class="iconfont"><li>发现<i>&#xe501;</i></li></a>
+					<a href="#" class="iconfont"><li>学习<i>&#xe501;</i></li></a>
+					<a href="#" class="iconfont"><li>培训<i>&#xe501;</i></li></a>
+					<a href="#"><li>训练营</li></a>
+					<a href="#"><li>招聘</li></a>
+					<a href="#" class="iconfont"><li>更多<i>&#xe501;</i></li></a>
 				</ul>
 				<span class="head_right">
+					<a href="#" class="iconfont">&#xe960;</a>
+					<a href="#" class="iconfont">&#xe79c;</a>
+					<a href="#" class="iconfont">&#xe6a2;<i>登录</i></a>
 				</span>
 			</div>
 		</header>
 		<section>
 			<div class="top">
+				<div><div class="loop"></div>
+				</div>
+				<div class="section_nav">
+					<ul>
+						<a href="#"><li>首页推荐</li></a>
+						<a href="#"><li>佳作分享</li></a>
+						<a href="#"><li>最新作品</li></a>
+					</ul>
+					<span id="section_nav_right">
+						<a href="#">有的时候我宁愿相信，人生的诸多不顺，只是因为最适合你的那条路尚未出现。BY《北京折叠》</a>
+						<a href="#" class="iconfont">&#xe600;</a>
+						<a href="#" class="iconfont">&#xe61e;</a>
+						<a href="#" class="iconfont">&#xe601;</a>
+					</span>
+				</div>
 				<div class="top_content">
 				
 				</div>
 			</div>
 			<div class="center">
+				<div class="section_nav">
+					
+				</div>
 				<div class="center_content">
 					
 				</div>
@@ -101,4 +65,64 @@
 		</section>
 		<footer></footer>
 	</body>
+	<script src="js/lis_json.js" type="text/javascript">
+	</script>
+	<script src="js/loopWall.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var imgs = ["uicn/1510207879_222.jpeg", "uicn/1511344659_856.jpeg", "uicn/1512096534_674.jpeg", "uicn/1512644633_507.jpeg", "uicn/1512700623_172.jpeg", "uicn/1511949064_176.jpeg", "uicn/1512644633_507.jpeg"];
+		/*var loopWall = creatLoopWall({
+			loopContainer: ".box",
+			imgsPath: imgs,
+			imgWidth: 640,
+			imgHeight: 320,
+			animTime: 50,
+			gapTime: 2000
+		});
+		
+ 	   loopWall.start();*/
+		var loopWall = new LoopWall({
+			loopContainer: ".loop",
+			imgsPath: imgs,
+			imgWidth: 1180,
+			imgHeight: 350,
+			animTime: 50,
+			gapTime: 5000
+		});
+		
+		loopWall.start();
+		
+//		
+//		var iconBrowse = "&#xe6f8;";
+//var iconComments = "&#xe61b;";
+//var iconLike = "&#xe65e;";
+//var li01={
+//	imgPath:"uicn/1025685.jpg",
+//	title:"#每周临摹# 插画练习-悲伤的我",
+//	span_conten:{
+//		p:"临摹",
+//		browse:iconBrowse,
+//		comments:iconComments,
+//		like:iconLike,
+//		browseSum:1,
+//		commentsSum:0,
+//		likeSum:0
+//	},
+//	people:{
+//		imgPath:"uicn/1025685.jpg",
+//		name:"路遥与风尘"
+//	}
+//};
+//
+//var str = JSON.stringify(li01);
+//		//20000块的电脑有多重   
+//var strJson = JSON.parse(str);
+//
+//var li = document.createElement("li");
+//var img = document.createElement("img");
+//img.src = strJson.imgPath;
+//var h3 = document.createElement("h3");
+//var span = document.createElement("span");
+//var span = document.createElement("span");
+
+	</script>
 </html>

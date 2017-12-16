@@ -1,0 +1,85 @@
+
+section{
+	width: 100%;
+	height: 3345px;
+	background-color: #eff3f5;
+}
+
+section .tool{
+	width: 1180px;
+	height: 3345px;
+	margin: 0 auto;
+}
+
+section .tool .tool_hd{
+	float: left;
+	margin: 15px 0;
+}
+
+section .tool_hd>li{
+	list-style: none;
+	float: left;
+}
+
+section .tool .tool_hd>li>a{
+	display: block;
+	width: 96px;
+	height: 40px;
+	text-decoration: none;
+	color: #34495e;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	/*border: 1px solid cadetblue;*/
+}
+
+section .tool .tool_hd>li>a:hover{
+	color: #3498db;
+}
+
+section .tool .tool_hd>li:nth-of-type(1){
+	position: relative;
+	top: -1px;
+	left: -1px;
+	border: 1px solid #ced7de;
+	border-radius: 40px;
+}
+
+section .tool .tool_hd>li:nth-of-type(1):hover{
+	border: 1px solid #3498db;
+}
+
+section .tool .tool_list{
+	width: 1180px;
+	margin-top: 20px;
+	float: left;
+}
+
+.i_font{
+	font-size: 19px;
+}
+
+.em_font{
+	font-size: 12px;
+	font-style: normal;
+	color: #3498db;
+}
+
+.download_a{
+	display: block;
+	padding: 0 8px;
+	height: 30px;
+   	line-height: 30px;
+    float: left;
+    margin-top: 5px;
+    border: 1px solid #b8c4ce;
+    border-radius: 3px;
+    margin-left: 10px;
+	cursor: pointe;
+    box-shadow: 0 0 3px rgba(0, 28, 71, 0.2);
+	color: #34495e;
+}
+
+.download_a:hover{
+	border: 1px solid #3498db;
+}

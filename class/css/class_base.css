@@ -1,0 +1,122 @@
+/**
+ * 初始化浏览器默认样式
+ */
+html,body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,
+h6,input,button,textarea,p,span,table,th,td,form{
+	margin:0;
+	padding:0;
+}
+body,input,button,select,textarea{
+	font: 12px/1.5 "microsoft yahei" ,"helvetica Neue","iconfont";
+	color:#34495E;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	-moz-font-feature-settings: "liga" ,"kern";
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img,a img{
+	border: 0;
+}
+a{
+	color:#336699;
+	outline: medium none;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+label{
+	cursor: pointer;
+}
+ul li,ol li{
+	list-style: none;
+}
+em,cite,i{
+	font-style: normal;
+}
+p{
+	word-wrap: break-word;
+	word-break: break-all;
+}
+input:focus,textarea:focus{
+	outline: none;
+}
+input:-ms-clear{
+	display: none;
+}
+textarea{
+	resize: none;
+}
+.cl:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.cl{
+	zoom: 1;
+}
+.z{
+	float: left !important;
+}
+.y{
+	float: right !important;
+}
+.cur1{
+	cursor: pointer;
+}
+.show{
+	display: block;
+}
+.hide{
+	display: none;
+}
+.pos{
+	position: relative;
+}
+.wpn{
+	width:1180px;
+	margin:0 auto;
+}
+.wpm{
+	width:1480px;
+	margin: 0 auto;
+}
+.wpw{
+	width:1780px;
+	margin: 0 auto;
+}
+.wpf{
+	width:100%;
+	max-width: 1260px;
+	margin: 0 auto;
+}
+.wpf-row{
+	width:93.65%;
+	margin: 0 3.175%;
+}
+.row{
+	width:100px;
+}
+.f12{
+	font-size: 12px;
+}
+.f14{
+	font-size: 14px;
+}
+.f16{
+	font-size: 16px;
+}
+.f26{
+	font-size: 26px;
+}
+.b{
+	font-weight: bold;
+}
+.i{
+	font-style: italic;
+}

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>UI中国招聘－找工作-设计师垂直招聘平台-UI中国-专业界面交互设计平台</title>
+		<link rel="shortcut icon" href="../img/bitbug_favicon.ico" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="../headFooter/headFooter1.css"/>
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
+		<style type="text/css">
+		
+			a {
+				cursor: pointer;
+			}
+			
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			
+			html,
+			body {
+				background-color: rgb(239, 243, 245);
+			}
+			
+			#head{
+				width: 1180px;
+				margin: 0 auto;
+				position: relative;
+			}
+			
+			#head .title {
+				height: 80px;
+				margin-top: 70px;
+			}
+			/*找工作*/
+			#head .title >a {
+				text-decoration: none;
+				color: black;
+				padding: 11px 20px;
+				border-radius: 25px;
+				/*margin-left: 192px;*/
+				text-align: center;
+				line-height: 80px;
+				border: 1px solid deepskyblue;
+			}
+			
+			#head .title .lable {
+				position: relative;
+				top: -40px;
+				left: 45%;
+				transform: translate(-50%, -50%);
+				width: 590px;
+				height: 40px;
+				
+			}
+		
+			#head .title .lable span {
+				float: left;
+				display: block;
+				width: 99px;
+				height: 38px;
+				position: absolute;
+				background-color: rgb(248, 249, 250);
+				border: 1px solid rgb(215, 220, 222);
+				text-align: center;
+				line-height: 38px;
+				cursor: pointer;
+			}
+			
+			
+			#head .title .lable .textar {
+				float: left;
+				width: 370px;
+				height: 38px;
+				border: 1px solid rgb(215, 220, 222);
+				position: absolute;
+				top: 0;
+				left: 99px;
+			}
+			
+			#head .title .lable .butt {
+				width: 120px;
+				height: 40px;
+				float: right;
+				border: 1px solid rgb(52, 153, 218);
+				background-color: rgb(52, 153, 218);
+				z-index: 1;
+			}
+			
+			#head .title .lable>i {
+				position: absolute;
+				right: 53px;
+				top: 13px;
+				transform: translate();
+				z-index: 2;
+				color: #FFFFFF;
+			}
+			/*鼠标变成手*/
+			
+			#head .title .lable .butt:hover,
+			#head .title .lable>i,
+			#head .title ul>li {
+				cursor: pointer;
+			}
+			
+			#head .title ul {
+				display: inline-block;
+				float: right;
+				position: absolute;
+				top: 20px;
+				right: 0px;
+			}
+			
+			#head .title >ul> li {
+				list-style: none;
+				display: inline-block;
+				width: 130px;
+				height: 40px;
+				background-color: rgb(52, 153, 218);
+				text-align: center;
+				line-height: 40px;
+				margin-left: 10px;
+			}
+			
+			#head .title ul>li>a {
+				text-decoration: none;
+				color: white;
+			}
+			
+			#head .title ul>li:hover {
+				/*transform: ;*/
+				opacity: 0.9;
+			}
+			
+			#head .job {
+				width: 1180px;
+				height: 209px;
+				float: none;
+				margin: 0 auto;
+			}
+			
+			#head .job .job_left {
+				width: 200px;
+				height: 209px;
+			}
+			
+			#head .job .job_left ul {
+				display: block;
+				border: 1px solid rgb(184, 196, 206);
+				height: 40px;
+				position: relative;
+			}
+			
+			#head .job .job_left ul>li:nth-child(1) {
+				list-style: none;
+				margin-left: 15px;
+				color: rgb(109, 193, 242);
+				text-decoration: none;
+				cursor: pointer;
+				line-height: 40px;
+			}
+			#head .job .job_left ul>li:nth-child(2) {
+				list-style: none;
+				position: relative;
+				top: -22px;
+				left: 70px;
+				width: 50px;
+				height: 4px;
+				background-color: rgb(109, 193, 242);
+			}
+			
+			#head .job .job_left ul>li:nth-child(3) {
+				list-style: none;
+				position: absolute;
+				left: 65px;
+				top: 15px;
+				width: 10px;
+				height: 10px;
+				background-color: rgb(52, 152, 219);
+				border-radius: 5px;
+				animation: move 2s 1;
+			}
+			
+			#head .job .job_left ul>li:nth-child(4) {
+				list-style: none;
+				float: right;
+				margin-top: -33px;
+				margin-right: 15px;
+				cursor: pointer;
+			}
+			
+			#head .job .job_left ul>li:nth-child(4):hover {}
+			
+			@keyframes move {
+				0% {
+					left: 65px;
+					top: 15px
+				}
+				50% {
+					left: 115px;
+					top: 15px
+				}
+				100% {
+					left: 65px;
+					top: 15px
+				}
+			}
+			
+			#head .job .job_left li {
+				list-style: none;
+			}
+			
+			#head .job .job_left>li:nth-child(2) {
+				list-style: none;
+				margin-top: 10px;
+				width: 198px;
+				height: 40px;
+				border: 1px solid rgb(184, 196, 206);
+			}
+			
+			#head .job .job_left>li:nth-child(2):hover a,
+			#head .job .job_left>li:nth-child(3):hover a,
+			#head .job .job_left>li:nth-child(4):hover a,
+			#head .job .job_left>li:nth-child(5):hover a,
+			#head .job .job_left>li:nth-child(6):hover a {
+				color: #000000;
+				display: block;
+			}
+			
+			#head .job .job_left>li:nth-child(3) {
+				height: 40px;
+				list-style: none;
+				border: 1px solid rgb(184, 196, 206);
+				border-top: none;
+			}
+			
+			#head .job .job_left>li:nth-child(4) {
+				height: 40px;
+				list-style: none;
+				border: 1px solid rgb(184, 196, 206);
+				border-top: none;
+			}
+			
+			#head .job .job_left>li:nth-child(5) {
+				height: 40px;
+				list-style: none;
+				border: 1px solid rgb(184, 196, 206);
+				border-top: none;
+			}
+			
+			#head .job .job_left>li:nth-child(6) {
+				height: 40px;
+				list-style: none;
+				border: 1px solid rgb(184, 196, 206);
+				border-top: none;
+			}
+			
+			#head .job .job_left>li a {
+				color: rgb(189, 195, 199);
+				line-height: 40px;
+				margin-left: 15px;
+			}
+			
+			#head .job .job_center {
+				background: url(img/Garena.png) no-repeat;
+				width: 700px;
+				height: 217px;
+				background-size: cover;
+				float: left;
+				margin-left: 239px;
+				margin-top: -210px;
+			}
+			
+			#head .job .job_center .wan {
+				display: none;
+				width: 80px;
+				height: 30px;
+				background-color: gray;
+				border-radius: 30px;
+				margin-top: 178px;
+				margin-left: 306px;
+			}
+			
+			#head .job .job_center:hover .wan {
+				display: block;
+				opacity: 0.3;
+			}
+			
+			#head .job .job_center:hover .wan a {
+				display: block;
+				width: 700px;
+				height: 217px;
+				position: absolute;
+				top: 149px;
+				left: 452px;
+			}
+			
+			#head .job .job_right img {
+				position: absolute;
+				top: 80px;
+				right: 0px;
+				height: 217px;
+			}
+			
+			#content {
+				width: 1180px;
+				height: 654px;
+				margin: 0 auto;
+				margin-top: 20px;
+			}
+			
+			#content .item {
+				list-style: none;
+				float: left;
+				width: 390px;
+				height: 317px;
+			}
+			
+			#content .item .box {
+				padding: 10px;
+				width: 380px;
+				height: 297px;
+			}
+			
+			#content .item .box:hover {
+				box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+			}
+			
+			#content .item .box img:nth-of-type {}
+			
+			#content .item .box p:nth-of-type(1) {
+				display: block;
+				float: left;
+				margin-left: 10px;
+				margin-top: 10px;
+				width: 150px;
+				font-size: 15px;
+			}
+			
+			#content .item .box p:nth-of-type(2) {
+				margin-top: 11px;
+				margin-left: 278px;
+				color: rgb(184, 196, 206);
+				font-size: 12px;
+			}
+			
+			#content .item .box p:nth-of-type(3) {
+				font-size: 12px;
+				margin-left: 10px;
+				color: rgb(184, 196, 206);
+				padding-top: 10px;
+			}
+			
+			#content .item .box a {
+				display: block;
+				margin-top: 10px;
+				padding-left: 10px;
+				font-size: 15px;
+			}
+			
+			#content .item .box a:hover {
+				text-decoration: underline;
+			}
+			
+			#content .item .box ul li {
+				list-style: none;
+				margin-left: 10px;
+				display: block;
+				float: left;
+				background-color: white;
+				width: 68px;
+				height: 25px;
+				font-size: 13px;
+				text-align: center;
+				line-height: 25px;
+				color: rgb(127, 140, 141);
+				margin-top: 10px;
+			}
+			
+			#foot {
+				width: 1180px;
+				height: 580px;
+				margin: 0 auto;
+			}
+			
+			#foot a {
+				display: block;
+				margin-top: 50px;
+				color: rgb(52, 152, 219);
+				/*margin-left: 202px;*/
+				text-decoration: none;
+				font-size: 20px;
+			}
+			
+			#foot>ul {
+				display: block;
+				width: 1180px;
+				height: 40px;
+				background-color: white;
+				margin-top: 60px;
+				/*margin-left: 202px;*/
+			}
+			
+			#foot ul li {
+				list-style: none;
+				display: block;
+				float: left;
+			}
+			
+			#foot ul li:nth-child(1) {
+				line-height: 40px;
+				margin-left: 20px;
+			}
+			
+			#foot ul li:nth-child(2) {
+				line-height: 40px;
+				margin-right: 20px;
+				float: right;
+				color: rgb(145, 153, 154);
+				font-size: 15px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header></header>
+		<div id="head">
+			<div class="title">
+				<a href="">找工作</a>
+				<div class="lable">
+					<span>公司 <i class="iconfont">&#xe6a6;</i></span>
+					<!--<ul class="two">
+							<li>公司</li>
+							<li>职位</li>
+					</ul>-->
+					<input class="textar" type="text" name="" value="" placeholder="    请输入关键字" />
+					<input class="butt" type="button" name="" />
+					<i class="iconfont">&#xe6ac;</i>
+
+				</div>
+				<ul>
+					<li><a>立即入驻</a></li>
+					<li><a>我的简历</a></li>
+				</ul>
+			</div>
+			<div class="job">
+				<div class="job_left">
+					<ul>
+						<li>公司</li>
+						<li></li>
+						<li></li>
+						<li>职位</li>
+					</ul>
+					<li><a>选择工作地点&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="iconfont">&#xe6a7;</i></a>
+						<!--<ul class="list1">
+							<li>A地</li>
+							<li>B地</li>
+							<li>C地</li>
+							<li>D地</li>
+							<li>E地</li>
+							
+						</ul>-->
+					</li>
+					<li><a>选择公司方向&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="iconfont">&#xe6a7;</i></a>
+
+					</li>
+					<li><a>选择融资阶段&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="iconfont">&#xe6a7;</i></a>
+
+					</li>
+					<li><a>选择公司规模&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="iconfont">&#xe6a7;</i></a>
+
+					</li>
+				</div>
+				<div class="job_center">
+					<div class="wan">
+						<a></a>
+					</div>
+				</div>
+				<div class="job_right">
+					<img src="img/talent.jpeg" />
+				</div>
+			</div>
+		</div>
+		<section id="content">
+			<li class="item">
+				<div class="box">
+					<img src="img/sea.png" />
+					<p>Garena-新加坡</p>
+					<p>互联网|1000人以上</p>
+					<!--<br />-->
+					<p>我们在新加坡等你来!</p>
+					<a>共有2个职位在招聘</a>
+					<ul>
+						<li>新加坡</li>
+						<li>扁平管理</li>
+						<li>弹性工作</li>
+						<li>平台广阔</li>
+					</ul>
+				</div>
+			</li>
+			<li class="item">
+				<div class="box">
+					<img src="img/inves.png" />
+					<p>INVES-Design</p>
+					<p>互联网|1-15人</p>
+					<p>这里有浓厚的设计气氛和专注设计精神,期待对设计有执着追求的...</p>
+					<a>共有3个职位在招聘</a>
+					<ul>
+						<li>专项奖金</li>
+						<li>五险一金</li>
+						<li>弹性工作</li>
+						<li>扁平管理</li>
+					</ul>
+				</div>
+			</li>
+			<li class="item">
+				<div class="box">
+					<img src="img/uichina.png" />
+					<p>UI中国</p>
+					<p>互联网|1-50人</p>
+					<p>加入UI中国,让我们一起为设计师打造一个优秀平台</p>
+					<a>共有3个职位在招聘</a>
+					<ul>
+						<li>税后薪水</li>
+						<li>社保福利</li>
+						<li>发展空间大</li>
+
+					</ul>
+				</div>
+			</li>
+			<li class="item">
+				<div class="box">
+					<img src="img/huizhong.jpg" />
+					<p>汇众天成</p>
+					<p>广告/公共/会展|1-102人</p>
+
+					<!--<p>这里有浓厚的设计气氛和专注设计精神,期待对设计有执着追求的...</p>-->
+					<a>共有3个职位在招聘</a>
+					<ul>
+						<li>节日礼物</li>
+						<li>五险一金</li>
+						<li>岗位晋升</li>
+						<li>扁平管理</li>
+					</ul>
+				</div>
+			</li>
+			<li class="item">
+				<div class="box">
+					<img src="img/anju.jpg" />
+					<p>安居客</p>
+					<p>互联网|1-15人</p>
+					<p>简单可信 创业精神 主动协作 用户第一 学习成长</p>
+					<a>共有2个职位在招聘</a>
+					<ul>
+						<li>一线平台</li>
+						<li>团队旅行</li>
+						<li>弹性工作</li>
+						<li>绩效奖金</li>
+					</ul>
+				</div>
+			</li>
+		</section>
+		<div id="foot">
+			<a href="">没有喜欢的企业?点击这里还有更多职位!>进入职位列表</a>
+			<ul>
+				<li>招聘专场</li>
+				<li>商务合作:vicky@ui.cn</li>
+
+			</ul>
+			<ul>
+				<li>合作伙伴</li>
+				<li>商务合作:bd@ui.cn</li>
+
+			</ul>
+		</div>
+		<footer></footer>
+	</body>
+<script src="../headFooter/headFooter1.js" type="text/javascript"></script>
+</html>
