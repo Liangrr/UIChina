@@ -1,0 +1,487 @@
+@charset "utf-8";
+@font-face {
+	font-family: "iconfont";
+	src: url('iconfont.eot');
+	/* IE9*/
+	src: url('../iconfont/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../iconfont/iconfont.woff') format('woff'), /* chrome, firefox */
+	url('../iconfont/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+	url('../iconfont/iconfont.svg#iconfont') format('svg');
+	/* iOS 4.1- */
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 44px;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "iconfont2";
+	src: url('../myiconfont/iconfont.eot');
+	/* IE9*/
+	src: url('../myiconfont/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../myiconfont/iconfont.woff') format('woff'), /* chrome, firefox */
+	url('../myiconfont/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+	url('../myiconfont/iconfont.svg#iconfont') format('svg');
+	/* iOS 4.1- */
+}
+
+.iconfont2 {
+	font-family: "iconfont2" !important;
+	font-size: 80px;
+	font-style: normal;
+	
+}
+ul, ol, li, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #eff3f5;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	color: #34495e;
+}
+
+section{
+	position: relative;
+}
+section .nav{
+	width: 1180px;
+	height: 227px;
+	margin: 0 auto;
+	background-color: #eff3f5;
+}
+
+section .nav .nav_Img{
+	width: 1180px;
+	height: 134px;
+	padding-top: 31px;
+	margin: 0 auto;
+}
+
+section .nav .nav_Img>div{
+	width: 219px;
+	height: 134px;
+	margin-right: 21px;
+	float: left;
+}
+
+section .nav .nav_Img>div:last-child{
+	margin-right: 0;
+}
+section .nav .nav_Img>div img{
+	width: 219px;
+	height: 134px;
+	
+	
+}
+section .nav .nav_Img div:nth-child(5){
+	position: relative;
+}
+section .nav .nav_Img div:nth-child(5) a{
+	display:block;
+    width: 219px;
+	height: 134px;
+	background-color: #6c7981;
+}
+section .nav .nav_Img div:nth-child(5) a:hover{
+	background-color: #3895d2;
+	cursor: pointer;
+}
+section .nav .nav_Img div:nth-child(5) p{
+	color: white;
+	position: absolute;
+	top: 59px;
+	left: 77px;
+}
+section .nav .nav_Img div:nth-child(5) i{
+	width: 80px;
+	height: 83px;
+	color: white;
+	position: absolute;
+	top: 28px;
+	left: 120px;
+}
+section .nav .nav_Text{
+	width: 1180px;
+	height: 64px;
+	margin: 0 auto;
+	
+}
+section .nav .nav_Text div{
+	position: relative;
+	width: 100%;
+	height: 64px;
+}
+section .nav .nav_Text div li{
+	display: inline-block;
+	float: left;
+	width: 54px;
+	height: 20px;
+	font-size: 12px;
+	margin-top: 23px;
+	margin-left: 12px;
+	
+}
+section .nav .nav_Text div li:hover>a{
+	color: #2b98dd;
+}
+section .nav .nav_Text div li:nth-child(1){
+	width: 59px;
+	margin: 0;
+	padding: 24px 9px 18px 26px;
+}
+section .nav .nav_Text div li:nth-child(1):hover{
+	background-color: white;
+	cursor: pointer;
+}
+section .nav .nav_Text div li:nth-child(1)>a>strong>i{
+	display: block;
+	float: right;
+	font-size: 18px;
+	color: #dfe5e9;
+	font-weight: bold;
+}
+section .nav .nav_Text div li:nth-child(1):hover> #allTab{
+	display: block;
+}
+section .nav .nav_Text div li:nth-child(1)>ul>li>a{
+	color: black;
+	font-weight: bold;
+}
+section .nav .nav_Text div li:nth-child(1)>ul>li>a:hover{
+	color: #2b98dd;
+}
+section .nav .nav_Text div li:nth-child(1)>ul>li:nth-of-type(1)>a{
+	color: #2b98dd;
+}
+section #allTab{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 62px;
+	z-index: 3;
+	width: 94px;
+	height: 297px;
+	text-align: center;
+	line-height: 50px;
+}
+section #allTab li{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	height: 47.5px;
+	width: 100%;
+}
+section .nav .nav_Text div li:nth-child(3){
+	margin-left: 19px;
+}
+section .nav .nav_Text div li:nth-child(4),section .nav .nav_Text div li:nth-child(5){
+	margin-left: 35px;
+}
+section .nav .nav_Text div li:nth-child(6),section .nav .nav_Text div li:nth-child(7){
+	margin-left: 30px;
+}
+section .nav .nav_Text div li:nth-child(8){
+	margin-left: 49px;
+	width: 25px;
+}
+section .nav .nav_Text div li:nth-child(9){
+	margin-left: 35px;
+	width: 25px;
+}
+section .nav .nav_Text div li:nth-child(10){
+	margin-left: 35px;
+	width: 25px;
+}
+section .nav .nav_Text div li:nth-child(11){
+	margin-left: 90px;
+	margin-top: 0;
+	padding-top: 13px;
+}
+section .nav .nav_Text div li:nth-child(11) div{
+	display: block;
+	width: 102px;
+	height: 32px;
+	border: 1px solid #9aabb8;
+	border-radius: 7px;
+	margin: 0 auto;
+}
+section .nav .nav_Text div li:nth-child(11) i:nth-of-type(1){
+	font-size: 16px;
+	width: 47px;
+	height: 34px;
+	padding-top: 7px;
+	padding-left: 8px;
+	text-align: center;
+	float: left;
+	color: #000000;
+}
+
+section .nav .nav_Text div li:nth-child(11) i:nth-of-type(2){
+	width: 47px;
+	height: 34px;
+	padding-top: 7px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	
+}
+section .nav .nav_Text div li:nth-child(11) i:nth-of-type(1) a{
+	color: grey;
+}
+section .nav .nav_Text div li:nth-child(11) i:nth-of-type(2) a{
+	color: #9aabb8;
+}
+section .nav .nav_Text div li:nth-child(11) i:nth-of-type(1):hover{
+	cursor: pointer;
+}
+section .nav .nav_Text div li:nth-child(11) i:nth-of-type(2):hover a{
+	color: #000000;
+	cursor: pointer;
+}
+section .nav .nav_Text div li a{
+	color: #9aabb8;
+}
+section .nav .nav_Text div .nav_1{
+	margin-left: 8px;
+	color: #2b98dd;
+}
+section .nav .nav_Text div .nav_2{
+	color: #2b98dd;
+}
+
+section .maining{
+	width: 1180px;
+	height: 5456px;
+	margin: 0 auto;
+	background-color: #eff3f5;
+	
+}
+section .maining .maining_left{
+	float: left;
+	width: 880px;
+	height: 5456px;
+	background-color: #eff3f5;
+}
+section .maining .maining_left div:last-child(){
+	border: none;
+}
+section .maining .maining_left .JSON{
+	margin-top: 31px;
+	height: 240px;
+	background-color: #eff3f5;
+	border-bottom: 1px solid rgba(169,169,169,0.25);
+}
+section .maining .maining_left>div:nth-child(1){
+	margin-top:0;
+}
+section .maining .maining_left>div:last-child{
+	border-bottom: none;
+}
+section .maining .maining_left .JSON .JSON_img img{
+	width: 280px;
+	height: 210px;
+	float: left;
+}
+section .maining .maining_left .JSON .JSON_text{
+	width: 580px;
+	height: 159px;
+	float: right;
+	background-color: #eff3f5;
+}
+section .maining .maining_left .JSON .JSON_text .JSON_title{
+	position: relative;
+}
+section .maining .maining_left .JSON .JSON_text .JSON_title a:nth-of-type(1){
+	font-size: 22px;
+	font-weight: bold;
+}
+section .maining .maining_left .JSON .JSON_text .JSON_title a:nth-of-type(2){
+	height: 24px;
+	position: absolute;
+	right: 0;
+	top: 3px;
+	
+}
+section .maining .maining_left .JSON .JSON_text .JSON_title a:nth-of-type(2) i{
+	color: gray;
+	font-size: 24px;
+	font-weight: bold;
+	float: left;
+	color: darkgrey;
+}
+section .maining .maining_left .JSON .JSON_text .JSON_title a:nth-of-type(2) span{
+	display: block;
+	font-size: 12px;
+	padding-top: 4px;
+	padding-left: 6px;
+	float: right;
+	color: darkgray;
+}
+section .maining .maining_left .JSON .JSON_text p{
+	margin-top: 31px;
+}
+section .maining .maining_left .JSON .JSON_text p a{
+	font-size: 14px;
+}
+section .maining .maining_left .JSON .JSON_text .JSON_info{
+	width: 580px;
+	height: 78px;
+}
+section .maining .maining_left .JSON .JSON_text .JSON_info a{
+	display: block;
+	padding-top: 28px;
+	width: 128px;
+	height: 50px;
+	float: left;
+}
+section .maining .maining_left .JSON .JSON_text .JSON_info a img{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	float: left;
+}
+section .maining .maining_left .JSON .JSON_text .JSON_info a span{
+	float: right;
+	font-size: 12px;
+	padding-right: 13px;
+	padding-top: 13.5px;
+}
+section .maining .maining_left .JSON .JSON_text .JSON_info span{
+	float: right;
+	padding-top: 38px;
+	padding-right: 222px;
+}
+section .maining .maining_left .JSON .JSON_text .JSON_info span li{
+	font-size: 12px;
+	color: darkgray;
+}
+section .maining .maining_left .JSON .JSON_text .JSON_info span li i{
+	font-size: 13px;
+	padding-left: 30px;
+}
+
+section .maining .maining_right{
+	float: right;
+	width: 280px;
+	height: 792px;
+	background-color: #eff3f5;
+}
+section .maining .maining_right h2{
+	font-size: 14px;
+    color: #34495e;
+    margin-top: 30px;
+    line-height: 20px;
+}
+section .maining .maining_right ul{
+	height: 740px;
+}
+section .maining .maining_right ul .article{
+	width: 280px;
+	height: 740px;
+}
+section .maining .maining_right ul .article li{
+	width: 280px;
+	height: 46px;
+	line-height: 24px;
+	padding: 10px 0;
+}
+section .maining .maining_right ul .article li h5>a{
+	color: #3498db;
+}
+section .maining .maining_right ul .article li h5>a:hover{
+	text-decoration: underline;
+}
+section .maining .maining_right ul .article li>p{
+	margin: 0;
+	color: #9aabb8;
+    font-size: 14px;
+    line-height: 1.57142858;
+}
+section .maining .maining_right ul .article li>p a{
+	font-size: 15px;
+    color: #bdbdbd;
+    margin-right: 10px;
+}
+section .maining .maining_right ul .article li>p i{
+	font-size: 14px;
+	color: #b8c4ce;
+}
+.page {
+	position: absolute;
+	width: 450px;
+    height: 40px;
+    clear: both;
+    display: table;
+    margin: 0 auto;
+    left: 300px;
+    bottom: 0;
+    z-index: 2;
+}
+.page ul{
+	height: 40px;
+}
+.page li {
+    min-width: 40px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    color: #555;
+    margin-right: 10px;
+}
+.page li a {
+    color: #99a1a7;
+    font-style: normal;
+    font-size: 14px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    background: #e7ebee;
+    border-radius: 2px;
+}
+.page li i {
+    font-size: 22px;
+    font-weight: bold;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    display: block;
+    color: #99a1a7;
+    float: right;
+    text-align: center;
+}
+.page li.pt {
+    min-width: 20px;
+    width: 20px;
+}
+.page li.next {
+    width: 40px;
+}
+.page li.form_page {
+    width: 60px;
+}
+.page li.form_page .page_input {
+    height: 40px;
+    border: 1px solid #ebeff3;
+    border-radius: 2px;
+    height: 37px;
+    font-size: 18px;
+    width: 48px;
+    padding: 0 5px;
+    outline: none;
+    background-color: transparent;
+}

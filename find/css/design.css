@@ -1,0 +1,342 @@
+section {
+	width: 1180px;
+	height: 3896px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+
+section .con-up {
+	width: 1180px;
+	height: 60px;
+	/*background-color: coral;*/
+	padding-top: 13px;
+	box-sizing: border-box;
+}
+
+section .con-up>ul {
+	width: 589px;
+	height: 40px;
+	float: left;
+}
+
+section .con-up>ul>li {
+	width: 60px;
+	height: 40px;
+	margin-right: 50px;
+	float: left;
+	position: relative;
+}
+
+section .con-up>ul>li>a {
+	display: block;
+	width: 60px;
+	color: #34495e;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+section .con-up>ul>li:nth-child(2) {
+	width: 78px;
+	height: 40px;
+}
+
+section .con-up>ul>li:nth-child(5) {
+	width: 100px;
+	height: 40px;
+	margin-right: 0px;
+	border: 1px solid #bdc3c7;
+	border-radius: 20px;
+}
+
+section .con-up>ul>li>a:hover {
+	color: #369;
+}
+
+section .con-up>ul>li:nth-child(5):hover {
+	border: 1px solid #369;
+}
+
+section .con-up>ul>li:nth-child(5):hover >a {
+	color: #369;
+}
+
+section .con-up>div {
+	width: 210px;
+	height: 40px;
+	float: right;
+	padding-top: 13px;
+}
+
+section .con-up>div>a:nth-child(1) {
+	display: block;
+	width: 85px;
+	float: left;
+}
+
+section .con-up>div>a:nth-child(2) {
+	display: block;
+	width: 100px;
+	height: 40px;
+	float: right;
+	margin-top: -13px;
+	border: 1px solid #bdc3c7;
+	position: relative;
+}
+
+section .con-up>div>a:nth-child(2)>span {
+	width: 78px;
+	height: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+section .con-up>div>a:nth-child(2)>span>p {
+	width: 30px;
+	height: 15px;
+	float: left;
+}
+
+section .con-up>div>a:nth-child(2)>span .down {
+	float: right;
+}
+
+section .content {
+	width: 1180px;
+	height: 3100px;
+	margin-top: 50px;
+}
+
+section .content>ul:nth-child(1) {
+	width: 1180px;
+	height: 3061px;
+}
+
+section .content>ul:nth-child(1)>li {
+	float: left;
+	width: 580px;
+	height: 470px;
+	margin-right: 20px;
+	margin-bottom: 35px;
+}
+
+section .content>ul:nth-child(1)>li:nth-of-type(2n) {
+	margin-right: 0;
+}
+
+section .content>ul:nth-child(1)>li>div {
+	width: 580px;
+	height: 40px;
+}
+
+section .content>ul:nth-child(1)>li>div>h1 {
+	font-size: 16px;
+	color: #2c3e50;
+	text-align: left;
+}
+
+section .content>ul:nth-child(1)>li>div>h1>span {
+	color: #ee4b4b;
+	margin-left: 15px;
+}
+
+section .content>ul:nth-child(1)>li>div>p {
+	text-align: left;
+	color: #b8c4ce;
+	margin-top: 5px;
+}
+
+section .content>ul:nth-child(1)>li>div>p>time {
+	color: #3498db;
+}
+
+section .content>ul:nth-child(1)>li>img {
+	width: 580px;
+	margin-top: 25px;
+}
+
+section .content>ul:nth-child(1)>li>p {
+	text-align: left;
+	margin-top: 25px;
+	color: #2c3e50;
+	line-height: 15px;
+}
+
+section .content .num {
+	width: 320px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: -15px;
+	/*border: 1px solid red;*/
+}
+
+section .content .num>li {
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	float: left;
+	background-color: #e7ebee;
+	position: relative;
+}
+
+section .content .num>li>a {
+	color: #99a1a7;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+section .content .num>li:nth-child(1):hover {
+	background-color: #3498db;
+}
+
+section .content .num>li:nth-child(1)>a:hover {
+	color: #fff;
+}
+
+section .content .num>li:nth-child(1) {
+	background-color: #3498db;
+}
+
+section .content .num>li:nth-child(1)>a {
+	color: #fff;
+}
+
+section .content .num>li:hover {
+	background-color: #99a1a7;
+}
+
+section .content .num>li:hover >a {
+	color: #fff;
+}
+
+section .con-down>div:nth-of-type(1) {
+	background-image: url(../designImg/kefu-info-bg.png);
+	width: 1200px;
+	height: 149px;
+	margin-top: 25px;
+	/*position: absolute;*/
+	position: relative;
+	margin-left: -10px;
+}
+section .con-down>div:nth-of-type(1)>span:nth-of-type(1){
+	display: inline-block;
+	width: 405px;
+	height: 30px;
+	color: #3498db;
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 75px;
+	transform: translate(-75px,-50%);
+}
+section .con-down>div:nth-of-type(1) .phone{
+	border-radius: 17.5px;
+	font-size: 35px;
+	background-color: #e7ebee;
+	position: absolute;
+	top: 50%;
+	left: 405px;
+	transform: translate(-75px,-50%);
+}
+section .con-down>div:nth-of-type(1)>span:nth-of-type(2){
+	color: #3498db;
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 460px;
+	font-style: oblique;
+	transform: translate(-75px,-50%);
+}
+section .con-down>div:nth-of-type(1)>span:nth-of-type(3){
+	color: #3498db;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left:615px;
+	font-weight: bold;
+	/*font-style: oblique;*/
+	transform: translate(-75px,-50%);
+}
+section .con-down>div:nth-of-type(1) .qq{
+	background-color: #e7ebee;
+	border-radius: 16px;
+	font-size: 32px;
+	position: absolute;
+	top: 50%;
+	left:730px;
+	font-weight: bold;
+	/*font-style: oblique;*/
+	transform: translate(-75px,-50%);
+}
+section .con-down>div:nth-of-type(1)>span:nth-of-type(4){
+	color: #3498db;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left:780px;
+	font-weight: bold;
+	font-style: oblique;
+	transform: translate(-75px,-50%);
+}
+section .con-down>div:nth-of-type(1) .letter{
+	background-color: #e7ebee;
+	border-radius: 16px;
+	font-size: 32px;
+	position: absolute;
+	top: 50%;
+	left:970px;
+	font-weight: bold;
+	/*font-style: oblique;*/
+	transform: translate(-75px,-50%);
+}
+section .con-down>div:nth-of-type(1)>span:nth-of-type(5){
+	color: #3498db;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	right: 75px;
+	font-weight: bold;
+	/*font-style: oblique;*/
+	transform: translate(-75px,-50%);
+}
+section .con-down>div:nth-of-type(2){
+	width: 1180px;
+	height: 383px;
+	margin-top: 45px;
+}
+section .con-down>div:nth-of-type(2)>p{
+	color:#2C3E50;
+	font-size: 20px;
+}
+section .con-down>div:nth-of-type(2)>ul{
+	width: 1180px;
+	height: 333px;
+	border:1px solid #dee3e6 ;
+}
+section .con-down>div:nth-of-type(2)>ul>li{
+	float: left;
+	width: 235px;
+	height: 111px;
+	border-right:1px solid #dee3e6 ;
+	border-bottom:1px solid #dee3e6 ;
+	position: relative;
+}
+section .con-down>div:nth-of-type(2)>ul>li:nth-child(5n){
+	border-right: 0;
+}
+section .con-down>div:nth-of-type(2)>ul{
+	margin-top: 35px;
+}
+section .con-down>div:nth-of-type(2)>ul>li>img{
+	position: absolute;
+	top: 50%;
+	height: 50%;
+	transform: translate(-50%,-50%);
+}

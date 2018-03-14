@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../headFooter/headFooter1.css"/>
+		<link rel="stylesheet" type="text/css" href="css/BodyCSS.css"/>
+		<link rel="stylesheet" type="text/css" href="js/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/article.css"/>
+		<header></header>
+		<section>
+			<div class="con-up">
+				<ul>
+					<li><a href=""><img src="articleImg/141683956850935图形3.jpg"/></a></li>
+					<li><a href=""><img src="articleImg/143019235128652封面.jpg"/></a></li>
+					<li><a href=""><img src="articleImg/1431516112951233.png"/></a></li>
+					<li><a href=""><img src="articleImg/1431516265222461.png"/></a></li>
+					<li><a href=""><span>更多专题</span><i class="down iconfont">&#xe501;</i></a></li>
+				</ul>
+			</div>
+			<div class="con-center">
+				<div class="recommend">
+					<span><a href="">推荐</a><i class="down iconfont">&#xe501;</i></span>
+					<ul>
+						<li><a href="">全部</a></li>
+						<li><a href="">推荐</a></li>
+						<li><a href="">最新</a></li>
+						<li><a href="">最热</a></li>
+						<li><a href="">评论</a></li>
+						<li><a href="">点赞</a></li>
+						<li><a href="">收藏</a></li>
+					</ul>
+				</div>
+				
+				<ul>
+					<li><a href="">教程</a></li>
+					<li><i class="point iconfont"></i><a href="">经验/观点</a></li>
+					<li><i class="point iconfont">&#xe812;</i><a href="">规范/资料</a></li>
+					<li><i class="point iconfont">&#xe812;</i><a href="">人物访谈</a></li>
+					<li><i class="point iconfont">&#xe812;</i><a href="">行业资讯</a></li>
+					<li><i class="point iconfont">&#xe812;</i><a href="">设计趋势</a></li>
+				</ul>
+				
+				<ul>
+					<li><a href="">原创</a></li>
+					<li><i class="point iconfont">&#xe812;</i><a href="">自译</a></li>
+					<li><i class="point iconfont">&#xe812;</i><a href="">转载</a></li>
+				</ul>
+				<div class="switch">
+					<a href=""><i class="left_switch iconfont">&#xe604;</i></a>
+					<a href=""><i class="right_switch iconfont">&#xe608;</i></a>
+				</div>
+			</div>
+			<div class="con-down">
+				<div class="left01">
+					
+				</div>
+				<div class="left02">
+					
+				</div>
+				<div class="right">
+					
+				</div>
+			</div>
+		</section>
+		<footer></footer>
+	</head>
+	<body>
+	</body>
+	<script src="../headFooter/headFooter1.js" type="text/javascript"></script>
+	<script src="js/article.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/iconfont.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/article02.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var switch01 = document.querySelector(".con-center .switch>a:nth-child(1)>i");
+		var switch02 = document.querySelector(".con-center .switch>a:nth-child(2)>i");
+		var ul01 = document.querySelector(".left01");
+		var ul02 = document.querySelector(".left02");
+		switch01.addEventListener("click",click1);
+		function click1(){
+			alert(111);
+			switch01.style.color = "#848484";
+			ul01.style.display = "block";
+			ul02.style.display = "none";
+			switch02.style.color = "#bdc3c7";
+		}
+		switch02.addEventListener("click",click2);
+		function click2(){
+			alert(222);
+			switch02.style.color = "#848484";
+			ul02.style.display = "block";
+			ul01.style.display = "none";
+			switch01.style.color = "#bdc3c7";
+		}
+		
+	</script>
+
+</html>

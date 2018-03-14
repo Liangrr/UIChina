@@ -1,6 +1,6 @@
 @charset "utf-8";
 @font-face {
-	font-family: "iconfont";
+	font-family: "iconfont1";
 	src: url('iconfont.eot');
 	/* IE9*/
 	src: url('../iconfont/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -10,8 +10,8 @@
 	/* iOS 4.1- */
 }
 
-.iconfont {
-	font-family: "iconfont" !important;
+.iconfont1 {
+	font-family: "iconfont1" !important;
 	font-size: 44px;
 	font-style: normal;
 }

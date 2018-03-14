@@ -19,7 +19,7 @@ function createHead(box){
 	var head = document.createElement("div");
 	head.className = "head";
 	var a_UI = document.createElement("a");
-	a_UI.className = "iconfont";
+	a_UI.className = "iconfont1";
 	a_UI.href = "#";
 //	a_UI.innerHTML = "&#xe607;";
 //	a_UI.style.fontSize = "45px";
@@ -37,7 +37,7 @@ function createHead(box){
 	
 	var li_head = document.createElement("li");
 	var a_head = document.createElement("a");
-	a_head.className = "iconfont";
+	a_head.className = "iconfont1";
 	a_head.href = "../index/uiChina.html";
 	a_head.innerText = "首页";
 	li_head.appendChild(a_head);
@@ -49,7 +49,7 @@ function createHead(box){
 	a_find.innerText = "发现";
 	var i_find = document.createElement("i");
 	i_find.innerHTML = "&#xe501;";
-	i_find.className = "iconfont";
+	i_find.className = "iconfont1";
 	a_find.appendChild(i_find);
 	li_find.appendChild(a_find);
 	
@@ -60,7 +60,7 @@ function createHead(box){
 	a_learning.innerText = "学习";
 	var i_learning = document.createElement("i");
 	i_learning.innerHTML = "&#xe501;";
-	i_learning.className = "iconfont";
+	i_learning.className = "iconfont1";
 	a_learning.appendChild(i_learning);
 	li_learning.appendChild(a_learning);
 	
@@ -71,7 +71,7 @@ function createHead(box){
 	a_training.innerText = "培训";
 	var i_training = document.createElement("i");
 	i_training.innerHTML = "&#xe501;";
-	i_training.className = "iconfont";
+	i_training.className = "iconfont1";
 	a_training.appendChild(i_training);
 	li_training.appendChild(a_training);
 	
@@ -96,7 +96,7 @@ function createHead(box){
 	a_more.innerText = "更多";
 	var i_more = document.createElement("i");
 	i_more.innerHTML = "&#xe501;";
-	i_more.className = "iconfont";
+	i_more.className = "iconfont1";
 	a_more.appendChild(i_more);
 	li_more.appendChild(a_more);
 	
@@ -117,22 +117,26 @@ function createHead(box){
 	ul_find.style.zIndex = "10";
 	var li_find01 = document.createElement("li");
 	var a_find01 = document.createElement("a");
-	a_find01.href = "#";
+	a_find01.target = "_blank";
+	a_find01.href = "../find/production.html";
 	a_find01.innerText = "作品";
 	li_find01.appendChild(a_find01);
 	var li_find02 = document.createElement("li");
 	var a_find02 = document.createElement("a");
-	a_find02.href = "#";
+	a_find02.target = "_blank";
+	a_find02.href = "../find/article.html";
 	a_find02.innerText = "文章";
 	li_find02.appendChild(a_find02);
 	var li_find03 = document.createElement("li");
 	var a_find03 = document.createElement("a");
-	a_find03.href = "#";
+	a_find03.target = "_blank";
+	a_find03.href = "../find/activity.html";
 	a_find03.innerText = "线下活动";
 	li_find03.appendChild(a_find03);
 	var li_find04 = document.createElement("li");
 	var a_find04 = document.createElement("a");
-	a_find04.href = "#";
+	a_find04.target = "_blank";
+	a_find04.href = "../find/design.html";
 	a_find04.innerText = "设计大赛";
 	li_find04.appendChild(a_find04);
 	ul_find.appendChild(li_find01);
@@ -145,26 +149,31 @@ function createHead(box){
 	ul_learning.style.zIndex = "10";
 	var li_learning01 = document.createElement("li");
 	var a_learning01 = document.createElement("a");
-	a_learning01.href = "#";
+	a_learning01.target = "_blank";
+	a_learning01.href = "../study/tutorial.html";
 	a_learning01.innerText = "教程";
 	li_learning01.appendChild(a_learning01);
 	var li_learning02 = document.createElement("li");
 	var a_learning02 = document.createElement("a");
-	a_learning02.href = "#";
+	a_learning02.target = "_blank";
+	a_learning02.href = "../study/thematic.html";
 	a_learning02.innerText = "专题";
 	li_learning02.appendChild(a_learning02);
 	var li_learning03 = document.createElement("li");
 	var a_learning03 = document.createElement("a");
-	a_learning03.href = "#";
+	a_learning03.target = "_blank";
+	a_learning03.href = "../study/book.html";
 	a_learning03.innerText = "书籍";
 	li_learning03.appendChild(a_learning03);
 	var li_learning04 = document.createElement("li");
 	var a_learning04 = document.createElement("a");
-	a_learning04.href = "#";
+	a_learning04.target = "_blank";
+	a_learning04.href = "../study/activity.html";
 	a_learning04.innerText = "UTalk";
 	li_learning04.appendChild(a_learning04);
 	var li_learning05 = document.createElement("li");
 	var a_learning05 = document.createElement("a");
+	a_learning05.target = "_blank";
 	a_learning05.href = "#";
 	a_learning05.innerText = "每周临摹";
 	li_learning05.appendChild(a_learning05);
@@ -248,15 +257,15 @@ function createHead(box){
 	right_span.className = "head_right";
 	var right_search = document.createElement("a");
 	right_search.href = "#";
-	right_search.className = "iconfont";
+	right_search.className = "iconfont1";
 	right_search.innerHTML =  "&#xe960";
 	var right_upload = document.createElement("a");
 	right_upload.href = "#";
-	right_upload.className = "iconfont";
+	right_upload.className = "iconfont1";
 	right_upload.innerHTML = "&#xe79c;";
 	var right_log = document.createElement("a");
 	right_log.href = "#";
-	right_log.className = "iconfont";
+	right_log.className = "iconfont1";
 	right_log.innerHTML = "&#xe6a2;";
 	var span_log = document.createElement("span");
 	span_log.innerText = "登录";
@@ -360,7 +369,7 @@ function createFooter(box){
 	footer_content_img.src = "../headFooter/ft-wx90.png";
 	
 	var i_ui = document.createElement("i");
-	i_ui.className = "iconfont";
+	i_ui.className = "iconfont1";
 	i_ui.innerHTML = "&#xe607;";
 	
 	var container = document.createElement("div");
@@ -395,7 +404,7 @@ function createFooter(box){
 	var a01 = document.createElement("a");
 	a01.href = "#";
 	var i01 = document.createElement("i");
-	i01.className = "iconfont";
+	i01.className = "iconfont1";
 	i01.innerHTML = "&#xe608;";
 	var img01 = document.createElement("img");
 	img01.src = "../headFooter/ft-wx150.png";
@@ -404,13 +413,13 @@ function createFooter(box){
 	var a02 = document.createElement("a");
 	a02.href = "#";
 	var i02 = document.createElement("i");
-	i02.className = "iconfont";
+	i02.className = "iconfont1";
 	i02.innerHTML = "&#xe6f6;";
 	a02.appendChild(i02);
 	var a03 = document.createElement("a");
 	a03.href = "#";
 	var i03 = document.createElement("i");
-	i03.className = "iconfont";
+	i03.className = "iconfont1";
 	i03.innerHTML = "&#xe689;";
 	a03.appendChild(i03);
 	var a04 = document.createElement("a");
@@ -486,7 +495,7 @@ function createSuspend(){
 	}
 	for (var i = 1; i < a_list.length; i++) {
 		a_list[i].href = "#";
-		a_list[i].className = "iconfont";
+		a_list[i].className = "iconfont1";
 		a_list[i].style.display = "block";
 		a_list[i].style.width = "48px";
 		a_list[i].style.height = "40px";
